@@ -1,0 +1,82 @@
+ .auth-container {
+            min-height: calc(100vh - 70px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            background: #f8fafc;
+        }
+        .auth-card {
+            background: white;
+            width: 100%;
+            max-width: 450px;
+            border-radius: 2rem;
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+        .auth-header {
+            padding: 3rem 2rem 1.5rem;
+            text-align: center;
+        }
+        .auth-body {
+            padding: 0 2rem 3rem;
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        .form-group {
+            margin-bottom: 1.2rem;
+        }
+        .form-group label {
+            display: block;
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #64748b;
+            margin-bottom: 0.4rem;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            border: 2px solid #f1f5f9;
+            border-radius: 1rem;
+            outline: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        .form-group input:focus {
+            border-color: var(--primary);
+            background: white;
+        }
+        .auth-btn {
+            width: 100%;
+            padding: 1rem;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 1rem;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.2);
+            margin-top: 1rem;
+        }
+        .auth-btn:hover {
+            background: var(--primary-light);
+            transform: translateY(-2px);
+        }
+        .toggle-auth {
+            text-align: center;
+            margin-top: 1.5rem;
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+        .toggle-auth a {
+            color: var(--primary);
+            font-weight: 700;
+            text-decoration: none;
+        }
